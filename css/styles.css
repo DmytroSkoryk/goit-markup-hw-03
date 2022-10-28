@@ -1,0 +1,216 @@
+:root {
+  --color-link: #2196f3;
+  --color-title: #212121;
+  --color-text: #757575;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web {
+  color: var(--color-link);
+}
+.link-nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+}
+.link-nav:hover {
+  color: var(--color-link);
+}
+.link-nav:focus {
+  color: var(--color-link);
+}
+.link-nav.current {
+  color: var(--color-link);
+}
+.link-auth {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.link-auth:hover {
+  color: var(--color-link);
+}
+.link-auth:focus {
+  color: var(--color-link);
+}
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-section button {
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--color-link);
+  cursor: pointer;
+}
+.hero-section button:hover {
+  background-color: #188ce8;
+}
+.hero-section button:active {
+  background-color: #188ce8;
+}
+
+.benefits-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-title);
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.servise-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.team-background {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #2f303a;
+}
+.logo-studio {
+  color: #ffffff;
+}
+.map {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.map:hover {
+  color: var(--color-link);
+}
+.map:focus {
+  color: var(--color-link);
+}
+.communication {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.communication:hover {
+  color: var(--color-link);
+}
+.communication:focus {
+  color: var(--color-link);
+}
+.sort-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0;
+}
+.sort-button:hover {
+  color: #ffffff;
+  background-color: var(--color-link);
+}
+.sort-button:focus {
+  color: #ffffff;
+  background-color: var(--color-link);
+}
+.portfolio-background {
+  background-color: #ffffff;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-title);
+}
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
