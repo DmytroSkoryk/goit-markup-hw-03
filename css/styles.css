@@ -44,10 +44,12 @@ body {
     (100% - var(--indent) * (var(--items) - 1)) / (var(--items))
   );
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .site-nav {
   margin-right: auto;
@@ -117,7 +119,8 @@ body {
 }
 .hero-section {
   background-color: #2f303a;
-  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: #ffffff;
@@ -129,7 +132,6 @@ body {
   width: 696px;
   text-align: center;
   margin: auto;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 .hero-section button {
@@ -193,6 +195,9 @@ body {
   color: var(--color-text);
   width: 270px;
 }
+.service-section {
+  padding-top: 0;
+}
 .servise-title {
   font-weight: 700;
   font-size: 36px;
@@ -247,18 +252,17 @@ body {
 }
 footer {
   background-color: #2f303a;
-  min-height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .logo-studio {
   color: #ffffff;
 }
-.footer-item {
-  display: block;
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .map {
@@ -293,11 +297,12 @@ footer {
 .portfolio-button {
   display: flex;
   gap: 8px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .sort-button {
   display: inline-block;
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -326,6 +331,8 @@ footer {
 .portfolio-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid #ececec;
   border-top: none;
 }
@@ -335,7 +342,7 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-title);
-  padding-left: 24px;
+
   margin-bottom: 4px;
 }
 .portfolio-type {
